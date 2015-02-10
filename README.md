@@ -1,6 +1,6 @@
 # pivotal-auto-deliver
 
-Script to deliver finished Pivotal Tracker stories in a commit range.
+Script to deliver finished [Pivotal Tracker](https://www.pivotaltracker.com) stories in a commit range.
 
 Uses https://github.com/Wizcorp/node-pivotal to connect with the [Pivotal API](https://www.pivotaltracker.com/help/api?version=v3)
 (v3, which is old, but sufficient).
@@ -13,3 +13,11 @@ Run with the following set on the environment:
 - `PIVOTAL_PROJECT_ID`
 - `CURRENT_COMMIT` - SHA indicating end of commit range
 - `PREVIOUS_COMMIT` - SHA indicating beginning of commit range.
+
+Script will:
+
+1. Parse story IDs from the commit log in the given range.
+2. Find corresponding _Finished_ stories in the given Pivotal project.
+3. Set those stories to _Delivered_, and add a comment.
+4. Report to stdout.
+
