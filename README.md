@@ -14,7 +14,7 @@ Run with the following set on the environment:
 - `CURRENT_COMMIT` - SHA indicating end of commit range
 - `PREVIOUS_COMMIT` - SHA indicating beginning of commit range.
 
-`./node_modules/.bin/pivotal_deliver.js`
+`./node_modules/.bin/pivotal_deliver`
 
 Script will:
 
