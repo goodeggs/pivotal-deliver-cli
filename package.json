@@ -7,6 +7,13 @@
     "type": "git",
     "url": "git://github.com/goodeggs/pivotal-auto-deliver.git"
   },
+  "bin": {
+    "pivotal_deliver": "pivotal_deliver.js"
+  },
+  "dependencies": {
+    "fibrous": "^0.3.3",
+    "pivotal": "https://github.com/Wizcorp/node-pivotal/tarball/75f5be1ba71b1c116867346a9777b594191e341e"
+  },
   "keywords": [
     "pivotal"
   ],
@@ -15,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/goodeggs/pivotal-auto-deliver/issues"
   },
-  "homepage": "https://github.com/goodeggs/pivotal-auto-deliver",
-  "dependencies": {
-    "fibrous": "^0.3.3",
-    "pivotal": "https://github.com/Wizcorp/node-pivotal/tarball/75f5be1ba71b1c116867346a9777b594191e341e"
-  }
+  "homepage": "https://github.com/goodeggs/pivotal-auto-deliver"
 }

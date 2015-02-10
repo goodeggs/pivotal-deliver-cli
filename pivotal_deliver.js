@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
  script to mark pivotal stories as Delivered,
  using a commit range.
