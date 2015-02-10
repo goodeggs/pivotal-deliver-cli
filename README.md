@@ -1,4 +1,4 @@
-# pivotal-auto-deliver
+# pivotal-deliver-cli
 
 Script to deliver finished [Pivotal Tracker](https://www.pivotaltracker.com) stories in a commit range.
 
@@ -13,6 +13,8 @@ Run with the following set on the environment:
 - `PIVOTAL_PROJECT_ID`
 - `CURRENT_COMMIT` - SHA indicating end of commit range
 - `PREVIOUS_COMMIT` - SHA indicating beginning of commit range.
+
+`./node_modules/.bin/pivotal_deliver.js`
 
 Script will:
 
