@@ -1,0 +1,23 @@
+{
+  "name": "pivotal-auto-deliver",
+  "version": "0.0.1",
+  "description": "Script to deliver finished Pivotal Tracker stories in a commit range",
+  "main": "pivotal_deliver.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodeggs/pivotal-auto-deliver.git"
+  },
+  "keywords": [
+    "pivotal"
+  ],
+  "author": "ben.buckman@goodeggs.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goodeggs/pivotal-auto-deliver/issues"
+  },
+  "homepage": "https://github.com/goodeggs/pivotal-auto-deliver",
+  "dependencies": {
+    "fibrous": "^0.3.3",
+    "pivotal": "https://github.com/Wizcorp/node-pivotal/tarball/75f5be1ba71b1c116867346a9777b594191e341e"
+  }
+}
