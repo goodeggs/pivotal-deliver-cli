@@ -1,5 +1,7 @@
 # pivotal-deliver-cli
 
+`npm install --save pivotal-deliver-cli`
+
 Script to deliver finished [Pivotal Tracker](https://www.pivotaltracker.com) stories in a commit range.
 
 Uses https://github.com/Wizcorp/node-pivotal to connect with the [Pivotal API](https://www.pivotaltracker.com/help/api?version=v3)
