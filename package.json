@@ -1,6 +1,6 @@
 {
   "name": "pivotal-deliver-cli",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Script to deliver finished Pivotal Tracker stories in a commit range",
   "main": "pivotal_deliver.js",
   "repository": {
