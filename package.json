@@ -11,7 +11,7 @@
     "pivotal_deliver": "pivotal_deliver.js"
   },
   "dependencies": {
-    "fibrous": "^0.3.3",
+    "fibrous": "*",
     "pivotal": "https://github.com/Wizcorp/node-pivotal/tarball/75f5be1ba71b1c116867346a9777b594191e341e"
   },
   "keywords": [
